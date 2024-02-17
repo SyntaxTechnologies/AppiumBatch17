@@ -1,0 +1,57 @@
+Class 1 - Mobile testing - appium
+
+only UI is changed in mobile application (instead of web view, we get mobile view)
+selenium - for web based automation
+appium - for mobile automation
+
+
+AVD - android virtual devices - emulators
+real devices - simulators
+
+companies prefer virtual devices since they are dedicated for testing
+
+we will execute our scripts only in android devices not in iphone. apple doesn't allow to create iphone devices in windows
+
+Class 2 -
+
+recap -
+
+android studio - we need android devices (emulators)
+we need android sdk - to get all the features of android phones and automation
+
+IntelliJ idea - to write the code
+in our framework - cucumber framework -
+dependencies we have added - cucumber, junit, appium, selenium and apache poi
+
+Appium server - we need to connect our android devices with the script
+appium server is responsible for the execution of scripts on devices
+
+.apk is the extension of the app you will use in android
+.app/.asi is the extension of the app you will use in ios
+
+to open the app in the device, we need 2 identifiers
+App Package -
+App Activity -
+
+every single application has unique app package and activity
+https://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac
+
+AVD/device manager - it is used to create android emulators.
+
+command to check available devices -
+adb devices
+
+framework - we have this to write script
+we have device to execute the script
+we have appium server to connect both the things mentioned above
+
+
+
+
+
+
+
+
+
+
+
