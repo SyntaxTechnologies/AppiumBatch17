@@ -45,6 +45,36 @@ framework - we have this to write script
 we have device to execute the script
 we have appium server to connect both the things mentioned above
 
+Class 3 -
+
+before executing the script -
+make sure -
+android home is set properly
+appium server is running
+device is open
+script is fine
+
+we need ui automator viewer to identify the elements in mobile
+we can find it under
+appdata - local - android -sdk - tools - bin - uiautomatorviewer (Batch file)
+
+to identify the mobile elements, we need 3 attributes
+text
+resource-id
+content-desc
+
+//*[@attribute='value of attribute']
+
+using text also, we need same xpath
+
+//*[@text='value of text']
+//*[@resource-id='value of text']
+//*[@content-desc='value of text']
+
+
+
+
+
 
 
 
